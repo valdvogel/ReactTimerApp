@@ -14,14 +14,14 @@ var Nav = React.createClass({
                             <IndexLink to="/" activeClassName="active-link">Timer</IndexLink>
                         </li>
                         <li className="menu-text">
-                            <IndexLink to="/" activeClassName="active-link">Countdown</IndexLink>
+                            <IndexLink to="/countdown" activeClassName="active-link">Countdown</IndexLink>
                         </li>
                     </ul>
                 </div>
                 <div className="top-bar-right">
                     <ul className="menu">
                         <li className="menu-text">
-                            Created by <a href="http://ithub.com.br/valdvogel" target="_blank">José Valdvogel</a>
+                            Created by <a href="https://github.com/valdvogel" target="_blank">José Valdvogel</a>
                         </li>
                     </ul>
                 </div>
